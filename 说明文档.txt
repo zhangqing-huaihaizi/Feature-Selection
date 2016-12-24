@@ -1,0 +1,8 @@
+1、mRMR文件夹：
+特征选择算法mRMR的C++代码，需要在linux环境下运行。
+可以输入要选择的特征维数，输出选择到的特征索引值（相关性从大到小排序）。
+
+2、svm文件夹：
+（1）getFeaturesWithIndex.m：得到选择好的特征文件
+（2）test.m：训练SVM分类器，需要使用到libsvm，输出准确率
+（3）ppca.m，test_pca.m都是PCA算法相关代码。
